@@ -41,7 +41,7 @@ public class ExchangeRateHistoryNode implements Comparable<ExchangeRateHistoryNo
 
     @SuppressWarnings("UnusedDeclaration")
     @Id @GeneratedValue(strategy = GenerationType.TABLE)
-    public long id;
+    long id;
 
     @Column(precision = 20, scale = 8)
     private BigDecimal rate = BigDecimal.ZERO;

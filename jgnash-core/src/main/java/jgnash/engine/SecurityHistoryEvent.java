@@ -44,7 +44,7 @@ public class SecurityHistoryEvent implements Comparable<SecurityHistoryEvent>, S
 
     @SuppressWarnings("unused")
     @Id @GeneratedValue(strategy= GenerationType.TABLE)
-    public long id;
+    long id;
 
     @Enumerated(EnumType.STRING)
     private SecurityHistoryEventType type = SecurityHistoryEventType.DIVIDEND;

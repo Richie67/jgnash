@@ -41,7 +41,7 @@ public class SecurityHistoryNode implements Comparable<SecurityHistoryNode>, Ser
 
     @SuppressWarnings("unused")
     @Id @GeneratedValue(strategy= GenerationType.TABLE)
-    public long id;
+    long id;
 
     private LocalDate date = LocalDate.now();
 
